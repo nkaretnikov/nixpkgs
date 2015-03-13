@@ -2687,6 +2687,8 @@ self : let callPackage = x : y : modifyPrio (newScope self x y); in
 
   timeCompat = callPackage ../development/libraries/haskell/time-compat {};
 
+  titlecase = callPackage ../development/libraries/haskell/titlecase {};
+
   tls = callPackage ../development/libraries/haskell/tls {};
 
   torrent = callPackage ../development/libraries/haskell/torrent {};
